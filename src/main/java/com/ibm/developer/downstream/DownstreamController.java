@@ -16,6 +16,6 @@ public class DownstreamController {
 	@GetMapping
 	public ResponseEntity<String> sendMessages() {
 		LOGGER.info("Getting a downstream message");
-		return ResponseEntity.ok("");
+		return ResponseEntity.ok("Got downstream message");
 	}
 }
